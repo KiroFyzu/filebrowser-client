@@ -1,0 +1,58 @@
+{
+  "name": "filebrowser-client",
+  "version": "1.0.0",
+  "description": "Reusable Node.js ESM client for File Browser API",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepublishOnly": "npm run build && npm run test"
+  },
+  "keywords": [
+    "filebrowser",
+    "file-browser",
+    "uploader",
+    "tus",
+    "share",
+    "api-client",
+    "node"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KiroFyzu/filebrowser-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KiroFyzu/filebrowser-client/issues"
+  },
+  "homepage": "https://github.com/KiroFyzu/filebrowser-client#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.24.0",
+    "@types/node": "^22.14.0",
+    "eslint": "^9.24.0",
+    "globals": "^16.0.0",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.29.1",
+    "vitest": "^3.1.1"
+  }
+}
