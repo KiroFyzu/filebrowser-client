@@ -5,8 +5,9 @@
   "type": "module",
   "main": "./dist/index.js",
   "publishConfig": {
-    "access": "public"
-  },
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+},
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
