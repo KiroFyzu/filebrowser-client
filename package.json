@@ -1,6 +1,6 @@
 {
   "name": "filebrowser-client",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Reusable Node.js ESM client for File Browser API",
   "type": "module",
   "main": "./dist/index.js",
