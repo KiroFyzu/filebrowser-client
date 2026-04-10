@@ -1,6 +1,6 @@
 {
   "name": "filebrowser-client",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Reusable Node.js ESM client for File Browser API",
   "type": "module",
   "main": "./dist/index.js",
@@ -36,12 +36,12 @@
     "api-client",
     "node"
   ],
-  "author": "",
+  "author": "KiroFyzu",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KiroFyzu/filebrowser-client.git"
-  },
+    "url": "https://github.com/KiroFyzu/filebrowser-client.git"
+    },
   "bugs": {
     "url": "https://github.com/KiroFyzu/filebrowser-client/issues"
   },

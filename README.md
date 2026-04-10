@@ -1,4 +1,4 @@
-# filebrowser-client
+# filebrowser-client ![npm](https://img.shields.io/npm/v/filebrowser-client)
 
 Reusable Node.js ESM client library for File Browser API, built with modular architecture and clean public API.
 
