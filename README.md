@@ -13,8 +13,28 @@ Reusable Node.js ESM client library for File Browser API, built with modular arc
 
 ## Installation
 
+Requirement:
+
+- Node.js 20 atau lebih baru
+
+Install dari npm registry:
+
 ```bash
 npm install filebrowser-client
+```
+
+Atau pakai package manager lain:
+
+```bash
+pnpm add filebrowser-client
+yarn add filebrowser-client
+bun add filebrowser-client
+```
+
+Install langsung dari GitHub (opsional):
+
+```bash
+npm install github:KiroFyzu/filebrowser-client
 ```
 
 ## Quick Start
